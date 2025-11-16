@@ -5,7 +5,7 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: "/faizan-portfolio", // 👈 your GitHub repo name
+    base: "./", // 👈 your GitHub repo name
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
